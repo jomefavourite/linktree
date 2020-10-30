@@ -36,7 +36,7 @@ html {
 }
 
 body {
-  background: linear-gradient(#0099ff, rgba(255, 0, 170, 0.281));
+  background: linear-gradient(#0099ff, #ff00aa48);
   background-size: auto;
   font-family: "Montserrat";
   color: #fff;
