@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-
-html {
-  height: 100%;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +17,7 @@ html {
   transition: 0.5s background;
 }
 
-.link__item, .socials__item {
+.link__item {
   width: 100%;
   border: 3px solid #fff;
   border-radius: 5px;
@@ -37,16 +32,18 @@ html {
 }
 
 body {
-  background: linear-gradient(#0099ff, #ff00aa48);
-  background-size: auto;
+  background-image: linear-gradient(#0099ff, rgba(255, 0, 170, 0.281));
+  background-size: contain;
   font-family: "Montserrat";
   color: #fff;
+  height: 100vh;
 }
 
 .container {
   width: 90%;
   max-width: 900px;
-  margin: 3rem auto;
+  margin: 3rem auto 0;
+  height: 100%;
 }
 
 .cont {
@@ -78,10 +75,13 @@ body {
 
 .socials {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  justify-content: center;
   gap: 2%;
   margin-top: 20px;
+}
+
+.socials__item a {
+  font-size: 30px;
 }
 
 .footer {
